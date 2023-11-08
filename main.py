@@ -14,6 +14,7 @@ def get_ports_info(option):
     data = get_json_data(PORTS_DATA_JSON[option])
     return {int(k) : v for (k, v) in data.items()}
 
+# Funzione per la risoluzione dell'host
 def get_ip_addr(target):
     try:
         ip_addr = socket.gethostbyname(target)
