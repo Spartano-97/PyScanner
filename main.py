@@ -22,6 +22,7 @@ def get_ip_addr(target):
     else:
         return ip_addr
 
+# Funzione principale per la scansione della porta
 def scan_port(ip, port):
     soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     soc.settimeout(1.0)
