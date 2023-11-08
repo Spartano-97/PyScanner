@@ -1,0 +1,11 @@
+{    
+    "22": "ssh",
+    "23": "telnet",
+    "53": "domain",
+    "80": "http",
+    "135": "epmap",
+    "445": "microsoft-ds",
+    "4145": "vvr-control",
+    "5272": "pk",
+    "8080": "http-alt"
+}
